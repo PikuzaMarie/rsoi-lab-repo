@@ -4,7 +4,7 @@
 A table "Music rating"  made with the help of HTML5, CSS3.
 
 ## Deploy link
-https://pikuzamarie.github.io/rsoi-lab-repo/lab1/
+[https://pikuzamarie.github.io/rsoi-lab-repo/lab1/](https://pikuzamarie.github.io/rsoi-lab-repo/lab1)
 
 =======
 
@@ -14,7 +14,7 @@ https://pikuzamarie.github.io/rsoi-lab-repo/lab1/
 A table "Kid A Excursion" dedicated to Radiohead album made with the help of HTML5, CSS3.
 
 ## Deploy link
-https://pikuzamarie.github.io/rsoi-lab-repo/lab2/
+[https://pikuzamarie.github.io/rsoi-lab-repo/lab2/](https://pikuzamarie.github.io/rsoi-lab-repo/lab2)
 
 =======
 
@@ -24,7 +24,7 @@ https://pikuzamarie.github.io/rsoi-lab-repo/lab2/
 a two-page website dedicated to Norway  made with the help of HTML5, CSS3, JS.
 
 ## Deploy link
-https://pikuzamarie.github.io/rsoi-lab-repo/lab3/
+[https://pikuzamarie.github.io/rsoi-lab-repo/lab3/](https://pikuzamarie.github.io/rsoi-lab-repo/lab3/pages/main)
 
 =======
 
@@ -44,7 +44,7 @@ The form is built with HTML5, CSS3, and JS, consisting of two pages: the form pa
 - Button to delete stored data
   
 ## Deploy link
-https://pikuzamarie.github.io/rsoi-lab-repo/lab4/
+[https://pikuzamarie.github.io/rsoi-lab-repo/lab4/](https://pikuzamarie.github.io/rsoi-lab-repo/lab4/main/)
 
 
 **Enjoy!**
