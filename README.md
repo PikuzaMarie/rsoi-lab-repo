@@ -1,29 +1,19 @@
-# Laboratory Projects Repository
+# LAB 4: JS form
 
-This repository contains laboratory projects for RSOI, 2nd semester, dedicated to **HTML**, **CSS**, and **JS**.
+## Description
+The form builded with HTML5, CSS3, JS with 2 pages: form page and results page;
+  -- form page --
+- usage of HTML5 and JS validation features;
+- usage of fileReader to save am image file;
+- save data to localStorage;
+  -- results page --
+- pagination with 5 rows on each page, amout of pages is calculated;
+- convert birth date to amout of years old and display this value;
+- button to delete stored data.
+  
+## Deploy link
+https://pikuzamarie.github.io/rsoi-lab-repo/lab4/
 
-You can find **8 projects**, each placed in a separate branch and available for download as a `.zip` archive.
-
-## How to Access Deploy
-
-1. Go to the desired branch.
-2. Open the deploy link provided in *README.md*.
-
-## How to Open This on Your Computer
-
-### Option 1: Download as `.zip`
-1. Download the `.zip` file.
-2. Extract the files.
-3. Open the folder in **VS Code** (or another IDE that supports **HTML**, **CSS**, and **JS**).
-4. Deploy on a local server (use the *'Go Live'* extension in VS Code).
-
-### Option 2: Fork This Repository
-1. Fork the repository to your own GitHub account.
-2. Open the forked repository.
-3. Clone the repository to your local storage.
-4. Open the folder in VS Code (or another IDE that supports **HTML**, **CSS**, and **JS**).
-5. Deploy on a local server (use the *'Go Live'* extension in VS Code).
-
-**Enjoy!**
+Enjoy!
 
 By MariePikuza / 2024
