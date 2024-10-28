@@ -1,28 +1,10 @@
-# Laboratory Projects Repository
+# LAB 1: HTML5
 
-This repository contains laboratory projects for RSOI, 2nd semester, dedicated to **HTML**, **CSS**, and **JS**.
+## Description
+A table "Music rating"  made with the help of HTML5, CSS3.
 
-You can find **8 projects**, each placed in a separate branch and available for download as a `.zip` archive.
-
-## How to Access Deploy
-
-1. Go to the desired branch.
-2. Open the deploy link provided in *README.md*.
-
-## How to Open This on Your Computer
-
-### Option 1: Download as `.zip`
-1. Download the `.zip` file.
-2. Extract the files.
-3. Open the folder in **VS Code** (or another IDE that supports **HTML**, **CSS**, and **JS**).
-4. Deploy on a local server (use the *'Go Live'* extension in VS Code).
-
-### Option 2: Fork This Repository
-1. Fork the repository to your own GitHub account.
-2. Open the forked repository.
-3. Clone the repository to your local storage.
-4. Open the folder in VS Code (or another IDE that supports **HTML**, **CSS**, and **JS**).
-5. Deploy on a local server (use the *'Go Live'* extension in VS Code).
+## Deploy link
+https://pikuzamarie.github.io/rsoi-lab-repo/lab1/
 
 **Enjoy!**
 
