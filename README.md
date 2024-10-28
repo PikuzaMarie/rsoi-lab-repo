@@ -1,15 +1,17 @@
 # LAB 4: JS form
 
 ## Description
-The form builded with HTML5, CSS3, JS with 2 pages: form page and results page;
-  -- form page --
-- usage of HTML5 and JS validation features;
-- usage of fileReader to save am image file;
-- save data to localStorage;
-  -- results page --
-- pagination with 5 rows on each page, amout of pages is calculated;
-- convert birth date to amout of years old and display this value;
-- button to delete stored data.
+The form is built with HTML5, CSS3, and JS, consisting of two pages: the form page and the results page.
+
+### Form Page
+- Usage of HTML5 and JS validation features
+- Usage of `FileReader` to save an image file
+- Save data to `localStorage`
+
+### Results Page
+- Pagination with 5 rows on each page; the amount of pages is calculated
+- Convert birth date to the amount of years old and display this value
+- Button to delete stored data
   
 ## Deploy link
 https://pikuzamarie.github.io/rsoi-lab-repo/lab4/
