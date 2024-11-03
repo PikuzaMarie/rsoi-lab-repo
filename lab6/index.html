@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="residentForm">
+            <figcaption>Информация о жилом доме</figcaption>
+            <fieldset class="input-container">
+                <legend>Поля формы</legend>
+                <div>
+                    <label for="name">ФИО:</label>
+                    <input type="text" id="name" placeholder="Введите ФИО" minlength="4" maxlength="100">
+                </div>
+                <div>
+                    <label for="number">Номер квартиры:</label>
+                    <input type="number" id="number" placeholder="Введите номер квартиры" min="1" max="100">
+                </div>
+                <div>
+                    <label for="area">Площадь:</label>
+                    <input type="number" id="area" placeholder="Введите площадь" min="20" max="100">
+                </div>
+                <div>
+                    <label for="privatized">Приватизация:</label>
+                    <input type="checkbox" id="privatized">
+                </div>
+            </fieldset>
+            <fieldset class="button-container">
+                <legend>Действия</legend>
+                <button type="submit" id="addBtn">Добавить запись</button>
+                <button type="reset" id="clearBtn">Очистить форму</button>
+                <button type="button" id="deleteBtn">Удалить запись</button>
+                <button type="button" id="deleteAllBtn">Удалить все записи</button>
+                <button type="button" id="minMaxAreaBtn">Мин/макс площадь</button>
+            </fieldset>
+            <fieldset class="new-field-container">
+                <legend>Новое поле</legend>
+                <div>
+                    <label for="idSelect">ID:</label>
+                    <select id="idSelect"></select>
+                </div>
+                <div>
+                    <label for="newProperty">Адрес:</label>
+                    <input type="text" id="newProperty" placeholder="Адрес">
+                    <button type="button" id="addPropertyBtn">Добавить адрес</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <table id="residentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>ФИО</th>
+                <th>Номер квартиры</th>
+                <th>Площадь</th>
+                <th>Приватизация</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
