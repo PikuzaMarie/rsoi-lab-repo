@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+:root {
+    --navy-blue: #0c1745;
+    --black: #0e0d12;
+    --light: #e8f0ff;
+    --darker-light: rgb(129, 163, 222, 0.5);
+}
+body {
+    background-color: var(--navy-blue);
+}
+/*Table styles & header*/
+/*text5*/
+caption {
+    position: relative;
+    margin: 25px 0;
+    color: #fff5e8;
+    text-align: center;
+    font: normal 25px/1.5 Uncial Antiqua;
+}
+table, th, td {
+    border: 1px solid var(--black);
+    border-collapse: collapse;
+    border-style: inset;
+    background-color: var(--light);
+}
+table {
+    table-layout: fixed;
+    width: 99%;
+    height: max-content;
+    margin: 0 auto 20px auto;   
+}
+thead th:nth-child(1) {
+    width: 2%;
+}
+thead th:nth-child(2) {
+    width: 20%;
+}
+thead th:nth-child(3) {
+    width: 20%;
+}
+thead th:nth-child(4) {
+    width: 45%;
+}
+thead th:nth-child(5) {
+    width: 13%;
+}
+th, 
+td {
+    padding: 15px;
+}
+th,
+td:first-child,
+#total {
+    border: 4px solid var(--black);
+    background-color: var(--darker-light);
+}
+td:last-child {
+    border-right: 4px solid var(--black);
+}
+th {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul, 
+ol {
+    list-style-position: inside;
+    font: normal 16px/1.2 Source Code Pro, mono;
+}
+ul {
+    list-style-type: none;
+}
+ul > li::before {
+    content: "-";
+    margin-right: 5px;
+}
+ol {
+    list-style-type: decimal;
+}
+ol ol {
+    list-style-type: lower-latin;
+}
+ul ol {
+    margin-left: 10px;
+}
+.centered {
+    text-align: center;
+}
+/*text1*/
+h2 {
+    font: oblique 22px/1.5 Roboto, sans-serif;
+    text-decoration: underline;
+}
+/*text2*/
+h3 {
+    font: 800 bold 18px/1.5 Roboto, sans-serif;
+}
+/*text3*/
+p {
+    font: normal 16px/1.2 Source Code Pro, mono;
+    font-stretch: normal;
+}
+.cover img {
+    width: 100%;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+#summary,
+#total {
+    /*text4*/
+    font: bold 18px/1.5 Roboto Condensed;
+}
+#summary {
+    text-align: right;
+}
+#total {
+    text-align: left;
+}
