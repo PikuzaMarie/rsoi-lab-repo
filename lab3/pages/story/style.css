@@ -104,7 +104,7 @@ nav ul li a:hover {
 	justify-content: center;
 	align-items: center;
 	color: var(--white);
-	background-image: url("assets/images/Norway_Stamsund_Lofotr_Vikingmuseum_Winter_HGR_163749_1920.webp");
+	background-image: url("../../assets/images/Norway_Stamsund_Lofotr_Vikingmuseum_Winter_HGR_163749_1920.webp");
 }
 /*Story*/
 .story {
