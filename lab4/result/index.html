@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Results</title>
+		<link
+			rel="stylesheet"
+			href="../main/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="image-wrapper">
+					<img
+						src="../Kommunarka_SHokolad_ADAPTATSII-SAYT-I-TELEVIZOR-ISPR.png"
+						alt="header-img" />
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="wrapper">
+				<nav>
+					<ul>
+						<li><a href="../main/index.html">Main</a></li>
+						<li>
+							<a
+								class="active"
+								href="index.html"
+								>Results</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<article>
+					<table>
+						<h2>Результаты опроса</h2>
+						<thead>
+							<tr>
+								<th>Имя</th>
+								<th>Возраст</th>
+								<th>Номер</th>
+								<th>Оценка удовлетв.</th>
+								<th>Оценка качества</th>
+								<th>Прикреплённый файл</th>
+								<th>Комментарий</th>
+							</tr>
+						</thead>
+						<tbody id="results-body">
+							<!-- Данные будут добавлены при загрузке страницы -->
+						</tbody>
+					</table>
+					<!-- Пагинация -->
+					<div id="pagination-controls">
+						<button id="prev-page">Назад</button>
+						<span id="page-info"></span>
+						<button id="next-page">Вперёд</button>
+					</div>
+					<!-- Кнопка очистки -->
+					<button id="clear-storage">Очистить данные</button>
+				</article>
+				<aside></aside>
+			</div>
+		</main>
+		<footer>
+			<div class="wrapper">
+				<p>Copyright © Kommunarka 2024</p>
+			</div>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>

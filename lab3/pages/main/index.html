@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norway</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <h1>NRWY</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Main</a></li>
+                    <li><a href="../story/index.html">Story</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <section class="hero">
+                <h2>Welcome to Norway</h2>
+                <p>Here's the place to gain some new information about the story of that incredible country</p>
+                <button type="button" onclick="document.querySelector('#about').scrollIntoView({behavior:'smooth'});">Get to know!</button>
+
+                <input type="text" class="custom-input" placeholder="Type something here...">
+            </section>
+            <section class="about" id="about">
+                <div>
+                    <h3>Norway's beginning</h3>
+                    <p>People began settling in Norway very early - in 9000 BC, in fact. 
+                        This was after the end of the first ice age, so it was now an inhabitable location. 
+                        Settlers survived by hunting and fishing animals such as seal, deer, elk and whales. 
+                        Farming didn't become prominent until 500 BC, which was known as the bronze age. 
+                        This time period got its name from the various weapons and jewelry created.
+                    </p>
+                <button type="button" onclick="window.location.href='../story/index.html';">Read full story!</button>
+                </div>
+                <img src="../../assets/images/Norway_Vikingen_HGR_163147_Photo_Espen_Mills.webp" alt="snowy-mountains">
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <small>Pikuza Marie, 2024</small>
+            <div class="circles">
+                <svg width="50" height="50">
+                    <circle cx="25" cy="25" r="25" fill="#7d8dad"></circle>
+                </svg>
+                <svg width="50" height="50">
+                    <circle cx="25" cy="25" r="25" fill="#7d8dad"></circle>
+                </svg>
+                <svg width="50" height="50">
+                    <circle cx="25" cy="25" r="25" fill="#7d8dad"></circle>
+                </svg>
+                <div class="text">Norway</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

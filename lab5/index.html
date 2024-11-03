@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>DHTML lab</h1>
+            <details>
+                <summary>
+                    <b>Description:</b>
+                </summary>
+                Разместить на форме для заполнения 2 текстовых поля, 2 выпадающих списка с 3 характеристиками отображения текста (вид шрифта и цвет), 3 кнопки (русский, английский, результат). 
+                Клик на кнопку "русский" — текст первого поля отобразится в соседнем английскими буквами, при клике на англ копку аналогично. 
+                При этом нужно отобразить текст с заданным шрифтом и цветом. Фокус должен автоматически переходить в следующее (меняется фон и граница). 
+                После подтверждения отображаются нумерованный список раннее введённых слов в текстовых полях
+            </details>
+        </header>
+        <main>
+            <div class="main-container" id="main-container">
+                <div class="form-container" id="form-container">
+                    <form action="" id="form">
+                        <figcaption>Form</figcaption>
+                        <fieldset class="input_container">
+                            <legend>Inputs</legend>
+                            <div>
+                                <label for="input-rus">Русский текст</label>
+                                <input type="text" name="input_rus" id="input-rus" minlength="1" maxlength="35">
+                            </div>
+                            <div>
+                                <label for="input-eng">English text</label>
+                                <input type="text" name="input_eng" id="input-eng" minlength="1" maxlength="35">
+                            </div>
+                        </fieldset>
+                        <fieldset class="select_container">
+                            <legend>Font and color options</legend>
+                            <select name="font_options" id="font-select">
+                                <option value="arial">Arial</option>
+                                <option value="courier-new">Courier New</option>
+                                <option value="roboto">Roboto</option>
+                            </select>
+                            <select name="color_options" id="color-select">
+                                <option value="black">Black</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </fieldset>
+                        <fieldset class="button_container">
+                            <legend>Translate</legend>
+                                <button type="button" id="btn-rus">Русский</button>
+                                <button type="button" id="btn-eng">English</button>
+                        </fieldset>
+                        <div class="form-actions_container">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+                <div class="ol-container" id="ol-container">
+                    <!--Content will appear after the form is submitted-->
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
