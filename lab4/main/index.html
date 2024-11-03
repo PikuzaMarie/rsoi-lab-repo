@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="image-wrapper">
+                <img src="../Kommunarka_SHokolad_ADAPTATSII-SAYT-I-TELEVIZOR-ISPR.png" alt="header-img">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Main</a></li>
+                    <li><a href="../result/index.html">Results</a></li>
+                </ul>
+            </nav>
+            <article>
+                <form action="" id="quality-poll-form">
+                    <h2>Оцените наш шоколад</h2>
+                    <fieldset>
+                        <legend>Контактная информация</legend>
+                        
+                        <label for="name">Имя</label>
+                        <span id="user-name-hint" class="input-hint">Пример: Анна (минимум 2 символа)</span>
+                        <input type="text" id="name" aria-describedby="user-name-hint" required minlength="2" maxlength="50">
+            
+                        <label for="date-of-birth">Дата рождения</label>
+                        <span id="born-date-hint" class="input-hint">Введите дату рождения (минимум 1920 год)</span>
+                        <input type="date" id="date-of-birth" aria-describedby="born-date-hint" required min="1920-01-01" max="2023-12-31">
+            
+                        <label for="tel">Мобильный телефон</label>
+                        <span id="tel-hint" class="input-hint">Пример: +375 29 123-45-67</span>
+                        <input type="tel" name="tel" id="tel" aria-describedby="tel-hint" required autocomplete="off" pattern="\+375\s\d{2}\s\d{3}-\d{2}-\d{2}" placeholder="+375 __ ___-__-__" maxlength="19">
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Общая оценка шоколада</legend>
+
+                        <span id="satisfaction-hint" class="input-hint">Выберите оценку для шоколада</span>
+                        <label for="excellent">
+                            <input type="radio" name="satisfaction" id="excellent" value="Отлично" aria-describedby="satisfaction-hint" required>
+                            Отлично
+                        </label>
+                        <label for="good">
+                            <input type="radio" name="satisfaction" id="good" value="Хорошо" aria-describedby="satisfaction-hint" required>
+                            Хорошо
+                        </label>
+                        <label for="average">
+                            <input type="radio" name="satisfaction" id="average" value="Средне" aria-describedby="satisfaction-hint" required>
+                            Средне
+                        </label>
+                        <label for="poor">
+                            <input type="radio" name="satisfaction" id="poor" value="Плохо" aria-describedby="satisfaction-hint" required>
+                            Плохо
+                        </label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Оценка свойств продукта</legend>
+
+                        <span id="quality-hint" class="input-hint">Выберите одно или несколько качеств продукта</span>
+                        <label for="high-quality">
+                            <input type="checkbox" name="quality" id="high-quality" value="Высокое качество" aria-describedby="quality-hint">
+                            Высокое качество
+                        </label>
+                        <label for="good-taste">
+                            <input type="checkbox" name="quality" id="good-taste" value="Хороший вкус" aria-describedby="quality-hint">
+                            Хороший вкус
+                        </label>
+                        <label for="nice-packaging">
+                            <input type="checkbox" name="quality" id="nice-packaging" value="Красивая упаковка" aria-describedby="quality-hint">
+                            Красивая упаковка
+                        </label>
+                        <label for="affordable">
+                            <input type="checkbox" name="quality" id="affordable" value="Доступная цена" aria-describedby="quality-hint">
+                            Доступная цена
+                        </label>
+                    </fieldset>
+                    
+                    <!-- <fieldset>
+                        <legend>Предпочтительный вид шоколада</legend>
+                        <span id="chocolate-hint" class="input-hint">Выбере одно из значений</span>
+                        <select name="chocolate" aria-describedby="chocolate-hint" id="chocolate-pref" size="3" required>
+                            <option value="milk">Молочный</option>
+                            <option value="dark">Тёмный</option>
+                            <option value="white">Белый</option>
+                            <option value="with-nuts">С орехами</option>
+                            <option value="with-berries">С ягодами</option>
+                        </select>
+                    </fieldset> -->
+            
+                    <fieldset>
+                        <legend>Прикрепите фото товара</legend>
+            
+                        <span id="file-hint" class="input-hint">Допустимые форматы: PNG, JPEG</span>
+                        <input type="file" name="file" id="file" aria-describedby="file-hint" accept="image/png, image/jpeg">
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Ваш комментарий</legend>
+            
+                        <span id="comment-hint" class="input-hint">Напишите свой комментарий (5-500 символов)</span>
+                        <textarea name="comment" id="comment" aria-describedby="comment-hint" minlength="5" maxlength="500">Ваш комментарий</textarea>
+                    </fieldset>
+            
+                    <fieldset id="btns-fieldset">
+                        <input id="submit-btn" type="submit" value="Отправить">
+                        <button id="reset-btn" type="reset">Сбросить</button> <!-- <input type="reset" value="Сбросить"> -->
+                    </fieldset>
+                </form>                                
+            </article>            
+            <aside>
+                <h3>Интересные факты о шоколаде</h3>
+                <details>
+                    <summary>Факт 1</summary>
+                    <p>Шоколад был впервые использован в древней Мезоамерике, где его готовили из какао-бобов.</p>
+                </details>
+                <details>
+                    <summary>Факт 2</summary>
+                    <p>Темный шоколад содержит антиоксиданты, которые могут быть полезны для здоровья сердца.</p>
+                </details>
+                <details>
+                    <summary>Факт 3</summary>
+                    <p>Белый шоколад не содержит какао-порошка, поэтому он не считается настоящим шоколадом.</p>
+                </details>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <p>
+                Copyright © Kommunarka 2024
+            </p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
