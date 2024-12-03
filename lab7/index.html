@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Chill & Fun with AJAX & JQuery</title>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<div class="main_container">
+			<header>
+				<h1>Have Fun!</h1>
+				<p>What team are you today?</p>
+			</header>
+
+			<div class="content-options_container">
+				<label for="quote"
+					><input
+						id="quote"
+						type="radio"
+						name="content-type"
+						value="quote"
+						checked />Jokes
+				</label>
+				<label for="meme"
+					><input
+						type="radio"
+						name="content-type"
+						value="meme" />Memes
+				</label>
+			</div>
+			<div class="amount-options_container">
+				<label for="content-count">Amount:</label>
+				<select id="content-count">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+				</select>
+			</div>
+			<div class="font-options_container">
+				<label for="text-color">Text color:</label>
+				<select id="text-color">
+					<option value="red">Error</option>
+					<option value="green">Hangover</option>
+					<option value="blue">Depressed</option>
+					<option value="purple">Stoned</option>
+					<option value="orange">Cringe</option>
+				</select>
+
+				<label for="font-family">Font:</label>
+				<select id="font-family">
+					<option value="Arial">Arial</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Courier New">Courier New</option>
+					<option value="Georgia">Georgia</option>
+					<option value="Tahoma">Tahoma</option>
+				</select>
+			</div>
+
+			<button id="load-content">Go get me fun!</button>
+
+			<div
+				id="loading"
+				class="loader"
+				style="display: none"></div>
+
+			<div id="content-container"></div>
+			<div
+				id="dialog"
+				title="My Dialog"
+				style="display: none">
+				<h3>Dialog</h3>
+				<p>This is an annoying popup! HEY!!! I had tooo</p>
+				<button id="close-dialog">Close</button>
+			</div>
+		</div>
+
+		<script
+			src="script.js"
+			defer></script>
+	</body>
+</html>
