@@ -83,6 +83,26 @@ The program allows you to manage house residents.
 
 -------
 
+# LAB 7: AJAX & JQuery
+
+## Description
+The program allows to send async requests to JSON APIs and update content on page. An also to laugh a bit :)
+
+### Features
+- Choose amount of quotes/memes b/w 1 and 8
+- Set text color and font family for quotes and memes titles
+- Use AJAX and JQuery to send async requests
+- Update data on screen without reloading the page (thanks to AJAX)
+
+### API sources
+- Quote API: https://dummyjson.com/docs/quotes
+- Memes API: https://github.com/D3vd/Meme_Api
+
+## Deploy link
+[https://pikuzamarie.github.io/rsoi-lab-repo/lab7](https://pikuzamarie.github.io/rsoi-lab-repo/lab7)
+
+-------
+
 **Enjoy!**
 
 By MariePikuza / 2024
