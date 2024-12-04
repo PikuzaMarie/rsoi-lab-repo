@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Lab 8</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Text File Manipulation</h1>
+
+			<form class="text-form">
+				<textarea
+					id="text-input"
+					rows="20"
+					cols="50"
+					placeholder="Введите текст из 20 строк..."></textarea>
+				<p id="line-count-warning">Текст должен содержать ровно 20 строк.</p>
+
+				<button
+					id="save-text-btn"
+					class="main-btn"
+					type="submit">
+					Сохранить текст
+				</button>
+				<button
+					id="save-text-btn"
+					class="secondary-btn"
+					type="reset">
+					Очистить
+				</button>
+			</form>
+
+			<div class="modify-options">
+				<label for="modify-option">Выберите опцию для изменения текста:</label>
+				<select id="modify-option">
+					<option value="all">Все строки</option>
+					<option value="even">Четные строки</option>
+					<option value="odd">Нечетные строки</option>
+				</select>
+				<button
+					id="modify-text-btn"
+					class="main-btn">
+					Сохранить изменённый текст
+				</button>
+			</div>
+
+			<div class="load-actions">
+				<button
+					id="load-original-btn"
+					class="secondary-btn">
+					Показать оригинальный текст
+				</button>
+				<button
+					id="load-modified-btn"
+					class="secondary-btn">
+					Показать измененный текст
+				</button>
+			</div>
+
+			<div class="text-output">
+				<p id="output">текст будет отображён здесь</p>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
